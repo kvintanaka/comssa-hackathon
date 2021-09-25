@@ -1,7 +1,6 @@
 import Preloader from "./components/Preloader/Preloader";
 import Timer from "./components/Countdown/Timer";
 import Optin from "./components/Optin/Optin";
-import Logo from "./components/Logo";
 import JoinDiscord from "./components/JoinDiscord";
 import catchline from "./assets/first-contact.png";
 
@@ -15,6 +14,7 @@ function App() {
 				<img
 					src={catchline}
 					height="70px"
+					alt="..."
 					style={{
 						marginBottom: "20px",
 					}}

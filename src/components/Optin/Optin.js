@@ -5,7 +5,7 @@ class Optin extends Component {
 	render() {
 		return (
 			<div className="optin">
-				<p>Register now to have a chance to win up to $1800 Cash</p>
+				<p>Register now to have a chance to win $4000 Cash prize pool</p>
 				<button
 					onClick={() =>
 						(window.location.href = "https://comssaxiethackathon.getqpay.com")

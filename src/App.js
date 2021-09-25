@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+import Preloader from "./components/Preloader/Preloader";
+import Timer from "./components/Countdown/Timer";
+import Optin from "./components/Optin/Optin";
+import Logo from "./components/Logo";
+import JoinDiscord from "./components/JoinDiscord";
+import catchline from "./assets/first-contact.png";
+
+import "./styles.css";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className="App">
+			<Preloader />
+			<div className="container">
+				<img
+					src={catchline}
+					height="70px"
+					style={{
+						marginBottom: "20px",
+					}}
+				/>
+				<h2>
+					<span className="hackathon">
+						<strong>Hackathon</strong>
+					</span>
+					<br />
+					<span>Starting Soon</span>
+				</h2>
+				<Timer />
+				<Optin />
+				<JoinDiscord />
+			</div>
+		</div>
+	);
 }
 
 export default App;

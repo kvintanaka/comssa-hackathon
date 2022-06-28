@@ -8,7 +8,7 @@ class Optin extends Component {
 				<p>Register now to get involved!</p>
 				<button
 					onClick={() =>
-						(window.location.href = "https://www.youtube.com/watch?v=6n3pFFPSlW4")
+						(window.location.href = "https://hackathon.comssa.org.au")
 					}
 				>
 					Register Now

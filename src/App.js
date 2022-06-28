@@ -39,6 +39,11 @@ function App() {
 				<Timer />
 				<Optin />
 				<JoinDiscord />
+				<h2>
+					<span className="bottomtext">
+						<strong>Contact us</strong> at facebook.com/ComSSACurtin for further questions
+					</span>
+				</h2>
 			</div>
 		</div>
 	);

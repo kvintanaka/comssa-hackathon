@@ -4,7 +4,7 @@ body {
 	color: #fff;
 
 	font-family: "Roboto Condensed", sans-serif;
-	background-image: url("./earth-background.png");
+	background-image: url("./Landscape_Hackathon_1.png");
 	background-position: top top;
 	background-size: cover;
 	margin: 0;
@@ -37,9 +37,10 @@ h1 {
 }
 
 .hackathon {
-	animation: anim-glow 2s ease infinite;
-	height: 20px;
-	width: 200px;
+	color: #5CA5C1;
+	height: 40px;
+	width: 300px;
+	font-size: calc(2rem + 0.9vw);
 }
 
 @media (min-width: 768px) {

@@ -5,6 +5,7 @@
 .optin button {
 	color: #fff;
 	padding: 6px 22px;
+	margin: 8px;
 	text-transform: uppercase;
 	font-family: "Roboto Condensed", sans-serif;
 	background-color: rgba(0, 255, 21, 0.637);

@@ -11,7 +11,7 @@ body {
 }
 
 .App {
-	position: fixed;
+	/* position: fixed; */ /*Removed to allow scrolling - why was it here in the first place?*/
 	top: 0;
 	left: 0;
 	right: 0;

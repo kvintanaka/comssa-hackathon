@@ -14,20 +14,22 @@ function App() {
 			<div className="container">
 				<img
 					src={title}
-					height="180px"
+					width="900px"
 					alt="..."
 					style={{
-						marginBottom: "-60px",
+						marginBottom: "-30px",
+						maxWidth: "100%"
 					}}
 				/>
 			</div>
 			<div className="container">
 				<img
 					src={catchline}
-					height="150px"
+					width="600px"
 					alt="..."
 					style={{
 						marginBottom: "20px",
+						maxWidth: "70%"
 					}}
 				/>
 				<h2>

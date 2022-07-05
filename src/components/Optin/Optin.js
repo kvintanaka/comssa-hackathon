@@ -8,11 +8,7 @@ class Optin extends Component {
 				<p>Register now to get involved!</p>
 				<button
 					onClick={() =>
-<<<<<<< HEAD
 						(window.location.href = "https://curtinuniversity.wufoo.com/forms/curtin-singapore-hackathon-group-registration/")
-=======
-						(window.location.href = "https://hackathon.comssa.org.au")
->>>>>>> b9093df68c6c7472d232824a328c3efec711563c
 					}
 				>
 					Group Registration

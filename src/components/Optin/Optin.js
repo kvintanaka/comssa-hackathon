@@ -8,7 +8,7 @@ class Optin extends Component {
 				<p>Register now to get involved!</p>
 				<button
 					onClick={() =>
-						(window.location.href = "https://curtinuniversity.wufoo.com/forms/curtin-singapore-hackathon-group-registration/")
+						(window.location.href = "https://curtinuniversity.wufoo.com/forms/sua1aoh0uhi2p1/")
 					}
 				>
 					Group Registration
@@ -16,10 +16,10 @@ class Optin extends Component {
 
 				<button
 					onClick={() =>
-						(window.location.href = "https://curtinuniversity.wufoo.com/forms/curtin-singapore-hackathon-individual-sign-up/")
+						(window.location.href = "https://curtinuniversity.wufoo.com/forms/s1wkppll0a05kvr/")
 					}
 				>
-					Solo Registration
+					Individual Registration
 				</button>
 				<div id="modal">
 					<div className="wrapper">

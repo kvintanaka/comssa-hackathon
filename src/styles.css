@@ -17,8 +17,12 @@ body {
 	right: 0;
 	bottom: 0;
 	text-align: center;
+}
 
+.gradient-container {
 	background: linear-gradient(0deg, black 0%, black 2%, transparent 100%);
+	min-height: 100vh;
+	min-width: 100vw;
 }
 
 .container {
